@@ -35,10 +35,10 @@ Sub CleanRansomProcessesAndFiles()
     Set objShell = CreateObject("WScript.Shell")
     
     ' Define all possible file variations
-    file1_py = "C:\ProgramData\.config\_vb_launch_fake_static_ransom_win.py"
-    file1_pyw = "C:\ProgramData\.config\_vb_launch_fake_static_ransom_win.pyw"
-    file2_py = "C:\ProgramData\.config\fake_static_ransom_win.py"
-    file2_pyw = "C:\ProgramData\.config\fake_static_ransom_win.pyw"
+    file1_py = "C:\ProgramData\.copilot\systemd-private-logind.service-xmssa\tmms-features\.config\_vb_launch_fake_static_ransom_win.py"
+    file1_pyw = "C:\ProgramData\.copilot\systemd-private-logind.service-xmssa\tmms-features\.config\_vb_launch_fake_static_ransom_win.pyw"
+    file2_py = "C:\ProgramData\.copilot\systemd-private-logind.service-xmssa\tmms-features\.config\fake_static_ransom_win.py"
+    file2_pyw = "C:\ProgramData\.copilot\systemd-private-logind.service-xmssa\tmms-features\.config\fake_static_ransom_win.pyw"
     
     ' Check if ANY of the files exist
     filesExist = False
